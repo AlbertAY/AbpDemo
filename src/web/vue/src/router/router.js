@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import index from '../views/signalr/sender.vue'
+import receiver from '../views/signalr/receiver.vue'
 
 Vue.use(VueRouter)
 
@@ -11,6 +12,10 @@ const router = new VueRouter({
     routes: [{
             path: '/',
             component: index,
+        },
+        {
+            path: 'receiver',
+            component: receiver,
         }
        
     ]
