@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import index from '../views/signalr/sender.vue'
 import receiver from '../views/signalr/receiver.vue'
 
+
 Vue.use(VueRouter)
 
 // 创建路由实例并配置路由映射  
@@ -14,7 +15,7 @@ const router = new VueRouter({
             component: index,
         },
         {
-            path: 'receiver',
+            path: '/receiver',
             component: receiver,
         }
        

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-row :gutter="10">
-      <el-col :span="2">A发送内容:</el-col>
+      <el-col :span="2">B发送内容:</el-col>
       <el-col :span="6">
         <el-input type="textarea" :rows="2" placeholder="请输入内容" v-model="textarea"></el-input>
       </el-col>
